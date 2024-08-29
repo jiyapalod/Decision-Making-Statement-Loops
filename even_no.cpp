@@ -7,7 +7,7 @@ int main()
 {
     for(int i=0;i<=10;i++)
     {
-        if(i==3||i==5)
+        if(i==1||i==3||i==5||i==7||i==9)
         {
             continue;
         }
@@ -17,12 +17,9 @@ int main()
 
 /* OUTPUT: 
 0
-1
 2
 4
 6
-7
 8
-9
 10
 */
